@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Portfolio Website | Pablo Miranda</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right"></div>
+      <div class="book">
+        <!-- profile page -->
+        <div class="book-page page-left">
+          <div class="profile-page">
+            <img src="./photo.jpg" alt="" />
+            <h1>Pablo Miranda</h1>
+            <h3>Técnico en Sistemas Computacionales</h3>
+            <div class="social-media">
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            </div>
+            <p>
+              Hola, soy Pablo Miranda, Técnico en Sistemas Computacionales. Ofrezco servicios de soporte técnico y optimización de equipos informáticos. Mi objetivo es ayudar a mejorar el rendimiento de los sistemas y asegurar el buen funcionamiento de los equipos.
+            </p>
+            <div class="btn-box">
+              <a href="#" class="btn">Descargar CV</a>
+              <a href="#" class="btn contact-me">Contactar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- page 1 & 2 -->
+        <div class="book-page page-right turn" id="turn-1">
+          <!-- page 1 (work experience) -->
+          <div class="page-front">
+            <h1 class="title">Experiencia Laboral</h1>
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bx-calendar"></i>2020 - 2021</span
+                >
+                <h3>Técnico de Soporte - Empresa X</h3>
+                <p>
+                  Mantenimiento preventivo y correctivo de equipos, soporte a usuarios y gestión de sistemas.
+                </p>
+              </div>
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bx-calendar"></i>2021 - 2022</span
+                >
+                <h3>Freelance - Asistencia técnica</h3>
+                <p>
+                  Ofrecí soporte a estudiantes y empresas, incluyendo diagnóstico y reparación de equipos, instalación de software y optimización de hardware.
+                </p>
+              </div>
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bx-calendar"></i>2022 - 2024</span
+                >
+                <h3>Freelance - Consultoría informática</h3>
+                <p>
+                  Servicios de optimización de sistemas, instalación de software, y soporte remoto.
+                </p>
+              </div>
+            </div>
+            <span class="number-page">1</span>
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-1"
+              ><i class="bx bx-chevron-right"></i
+            ></span>
+          </div>
+
+          <!-- page 2 (education) -->
+          <div class="page-back">
+            <h1 class="title">Educación</h1>
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bx-calendar"></i>2019 - 2023</span
+                >
+                <h3>Técnico en Sistemas Computacionales - Universidad Francisco Gavidia</h3>
+                <p>
+                  Formación en soporte y mantenimiento de equipos informáticos, instalación de sistemas y software.
+                </p>
+              </div>
+            </div>
+
+            <span class="number-page">2</span>
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-1"
+              ><i class="bx bx-chevron-left"></i
+            ></span>
+          </div>
+        </div>
+
+        <!-- page 3 & 4 -->
+        <div class="book-page page-right turn" id="turn-2">
+          <!-- page 3 (my services) -->
+          <div class="page-front">
+            <h1 class="title">Servicios que ofrezco</h1>
+            <div class="services-box">
+              <div class="services-content">
+                <i class="bx bx-cog"></i>
+                <h3>Mantenimiento Preventivo y Correctivo</h3>
+                <p>Diagnóstico, reparación y optimización de equipos informáticos.</p>
+              </div>
+              <div class="services-content">
+                <i class="bx bx-cleaning"></i>
+                <h3>Limpieza y Optimización de Hardware</h3>
+                <p>Limpieza de equipos y periféricos para mantener su rendimiento.</p>
+              </div>
+              <div class="services-content">
+                <i class="bx bx-desktop"></i>
+                <h3>Instalación de Sistemas Operativos</h3>
+                <p>Instalación y configuración de sistemas operativos en equipos.</p>
+              </div>
+              <div class="services-content">
+                <i class="bx bx-download"></i>
+                <h3>Instalación y Actualización de Software</h3>
+                <p>Instalación de programas y actualizaciones de software.</p>
+              </div>
+            </div>
+            <span class="number-page">3</span>
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-2"
+              ><i class="bx bx-chevron-right"></i
+            ></span>
+          </div>
+
+          <!-- page 4 (my skills) -->
+          <div class="page-back">
+            <h1 class="title">Mis Habilidades</h1>
+            <div class="services-box">
+              <div class="services-content">
+                <i class="bx bx-memory-card"></i>
+                <h3>Actualización de Hardware</h3>
+                <p>Mejora de equipos mediante la instalación de memoria RAM y almacenamiento SSD/NVMe.</p>
+              </div>
+              <div class="services-content">
+                <i class="bx bx-wrench"></i>
+                <h3>Diagnóstico y Reparación de Equipos</h3>
+                <p>Solución de problemas de hardware y software en equipos informáticos.</p>
+              </div>
+              <div class="services-content">
+                <i class="bx bx-lock"></i>
+                <h3>Desbloqueo de Equipos</h3>
+                <p>Desbloqueo de BIOS, contraseñas de cuentas locales y desvinculación de cuentas de Microsoft.</p>
+              </div>
+              <div class="services-content">
+                <i class="bx bx-virtual-reality"></i>
+                <h3>Virtualización</h3>
+                <p>Uso de VirtualBox y VMware para crear y administrar máquinas virtuales.</p>
+              </div>
+            </div>
+            <span class="number-page">4</span>
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-2"
+              ><i class="bx bx-chevron-left"></i
+            ></span>
+          </div>
+        </div>
+
+        <!-- page 5 (extra services) -->
+        <div class="book-page page-right turn" id="turn-3">
+          <!-- page 5 (extra services) -->
+          <div class="page-front">
+            <h1 class="title">Servicios Adicionales</h1>
+            <div class="services-box">
+              <div class="services-content">
+                <i class="bx bx-home-alt-2"></i>
+                <h3>Limpieza Exhaustiva</h3>
+                <p>Limpieza interior y exterior de equipos informáticos para un mejor rendimiento.</p>
+              </div>
+              <div class="services-content">
+                <i class="bx bx-headphone"></i>
+                <h3>Atención y Soporte a Usuarios</h3>
+                <p>Asistencia directa a estudiantes y personal en la solución de problemas informáticos.</p>
+              </div>
+            </div>
+            <span class="number-page">5</span>
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-3"
+              ><i class="bx bx-chevron-right"></i
+            ></span>
+          </div>
+
+        <!-- page 6 (contact information) -->
+        <div class="page-back">
+          <h1 class="title">¡Contáctame!</h1>
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3>Información de Contacto</h3>
+              <p><strong>Teléfono y WhatsApp:</strong> [Tu número de contacto]</p>
+              <p><strong>Email:</strong> pabloquintanilla988@gmail.com</p>
+              <p><strong>Ubicación:</strong> Residencial Los Angeles, Entre calle a Mariona y Mejicanos</p>
+            </div>
+            <div class="btn-box">
+              <a href="mailto:pabloquintanilla988@gmail.com" class="btn">Enviar Correo</a>
+              <a href="https://wa.me/[Tu número de WhatsApp]" class="btn">Enviar Mensaje</a>
+            </div>
+          </div>
+          <span class="number-page">6</span>
+          <!-- next button -->
+          <span class="nextprev-btn" data-page="turn-3"
+            ><i class="bx bx-chevron-right"></i
+          ></span>
+        </div>
+
+        <!-- page 6(contact me) -->
+        <div class="page-back">
+          <h1 class="title">¡Contáctame!</h1>
+          <div class="contact-box">
+            <form action="#">
+              <input
+                type="text"
+                class="field"
+                placeholder="Nombre Completo"
+                required
+              />
+              <input
+                type="email"
+                class="field"
+                placeholder="Correo Electrónico"
+                required
+              />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                class="field"
+                placeholder="Tu Mensaje"
+                required
+              ></textarea>
+              <input type="submit" class="btn" value="Enviar Mensaje" />
+            </form>
+          </div>
+
+          <span class="number-page">6</span> <!-- Número actualizado -->
+          <!-- prev button -->
+          <span class="nextprev-btn back" data-page="turn-3"
+            ><i class="bx bx-chevron-left"></i
+          ></span>
+          <a href="#" class="back-profile">
+            <p>Perfil</p>
+            <i class="bx bxs-user"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
